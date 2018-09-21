@@ -18,6 +18,11 @@
 
   <build>
     <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <version>3.7</version>
+        </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -29,4 +34,10 @@
       </plugin>
     </plugins>
   </build>
+    <distributionManagement>
+        <repository>
+            <id>internal</id>
+            <url>https://github.com/aFanofFilm/Maven2ndProject.git</url>
+        </repository>
+    </distributionManagement>
 </project>
