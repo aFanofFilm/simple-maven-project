@@ -37,7 +37,7 @@
     <distributionManagement>
         <repository>
             <id>internal</id>
-            <url>https://github.com/aFanofFilm/Maven2ndProject.git</url>
+            <url>https://github.com/aFanofFilm/MavenProject.git</url>
         </repository>
     </distributionManagement>
 </project>
