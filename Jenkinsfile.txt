@@ -5,3 +5,4 @@ node{
 	stage('Execute Shell Script'){
 		sh 'mvn clean package'
 }
+}
