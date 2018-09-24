@@ -15,7 +15,7 @@ public class AppTest
     public void testLengthOfTheUniqueKey(){
 
             App obj = new App();
-            Assert.assertEquals(32, obj.generateUniqueKey().length() );
+            Assert.assertEquals(36, obj.generateUniqueKey().length() );
     }
     /**
      * Create the test case
