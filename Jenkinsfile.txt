@@ -4,6 +4,6 @@ node{
 }
 	stage('Execute Shell Script'){
 		tool name: 'Maven3', type: 'maven'
-		sh 'mvn clean package'
+		bat 'mvn clean package'
 }
 }
