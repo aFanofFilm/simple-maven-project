@@ -37,7 +37,7 @@
     <distributionManagement>
         <repository>
             <id>internal</id>
-            <url>https://adlm.nielsen.com/bitbucket/scm/~graa8002/mavenproject.git
+            <url>https://github.com/aFanofFilm/simple-maven-project
             </url>
         </repository>
     </distributionManagement>
